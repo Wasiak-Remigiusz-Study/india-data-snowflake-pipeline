@@ -29,7 +29,7 @@ file_name = f'air_quality_data_{timestamp}.json'
 def snowpark_basic_auth() -> Session:
     connection_parameters = {
         "ACCOUNT": "IBJXEPF-NV18928",
-         "USER": os.environ["SNOWFLAKE_USER"], 
+        "USER": os.environ["SNOWFLAKE_USER"], 
         "PASSWORD": os.environ["SNOWFLAKE_PASSWORD"],
         "ROLE": "SYSADMIN",
         "DATABASE": "dev_db",
